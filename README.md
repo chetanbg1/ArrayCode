@@ -1,9 +1,7 @@
 # ArrayCode
 
 1. Find the Maximum Element in an Array
-java
-Copy
-Edit
+
 public class MaxElement {
     public static void main(String[] args) {
         int[] arr = {5, 8, 2, 9, 1};
@@ -15,9 +13,7 @@ public class MaxElement {
     }
 }
 2. Find the Minimum Element in an Array
-java
-Copy
-Edit
+
 public class MinElement {
     public static void main(String[] args) {
         int[] arr = {5, 8, 2, 9, 1};
@@ -29,9 +25,7 @@ public class MinElement {
     }
 }
 3. Calculate the Sum of All Elements in an Array
-java
-Copy
-Edit
+
 public class SumArray {
     public static void main(String[] args) {
         int[] arr = {5, 8, 2, 9, 1};
@@ -41,9 +35,7 @@ public class SumArray {
     }
 }
 4. Calculate the Average of Array Elements
-java
-Copy
-Edit
+
 public class AverageArray {
     public static void main(String[] args) {
         int[] arr = {5, 8, 2, 9, 1};
@@ -54,9 +46,7 @@ public class AverageArray {
     }
 }
 5. Reverse an Array
-java
-Copy
-Edit
+
 import java.util.Arrays;
 
 public class ReverseArray {
@@ -72,9 +62,7 @@ public class ReverseArray {
     }
 }
 6. Check if an Array Contains a Given Element
-java
-Copy
-Edit
+
 public class ContainsElement {
     public static boolean contains(int[] arr, int x) {
         for(int num : arr) {
@@ -89,9 +77,7 @@ public class ContainsElement {
     }
 }
 7. Find the Index of a Given Element in an Array
-java
-Copy
-Edit
+
 public class IndexOfElement {
     public static int indexOf(int[] arr, int x) {
         for(int i=0; i<arr.length; i++) {
@@ -106,9 +92,7 @@ public class IndexOfElement {
     }
 }
 8. Find the Second Largest Element in an Array
-java
-Copy
-Edit
+
 public class SecondLargest {
     public static void main(String[] args) {
         int[] arr = {5, 8, 2, 9, 1};
@@ -126,9 +110,7 @@ public class SecondLargest {
     }
 }
 9. Sort an Array Using Bubble Sort
-java
-Copy
-Edit
+
 import java.util.Arrays;
 
 public class BubbleSort {
@@ -148,9 +130,7 @@ public class BubbleSort {
     }
 }
 10. Remove Duplicates from an Array
-java
-Copy
-Edit
+
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -164,9 +144,7 @@ public class RemoveDuplicates {
     }
 }
 11. Find the Frequency of Each Element in an Array
-java
-Copy
-Edit
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -183,9 +161,7 @@ public class FrequencyCount {
     }
 }
 12. Merge Two Sorted Arrays
-java
-Copy
-Edit
+
 import java.util.Arrays;
 
 public class MergeSortedArrays {
@@ -208,9 +184,7 @@ public class MergeSortedArrays {
     }
 }
 13. Find the Missing Number in an Array of 1 to N
-java
-Copy
-Edit
+
 public class MissingNumber {
     public static int findMissing(int[] arr, int n) {
         int sum = n*(n+1)/2;
@@ -225,9 +199,7 @@ public class MissingNumber {
     }
 }
 14. Find the Pair of Elements That Sum to a Given Number
-java
-Copy
-Edit
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -249,9 +221,7 @@ public class PairSum {
     }
 }
 15. Check if an Array is Sorted
-java
-Copy
-Edit
+
 public class CheckSorted {
     public static boolean isSorted(int[] arr) {
         for(int i=0; i<arr.length-1; i++) {
@@ -265,9 +235,7 @@ public class CheckSorted {
     }
 }
 16. Rotate an Array by K Positions to the Right
-java
-Copy
-Edit
+
 import java.util.Arrays;
 
 public class RotateArray {
@@ -293,9 +261,7 @@ public class RotateArray {
     }
 }
 17. Find the Subarray with Maximum Sum (Kadane’s Algorithm)
-java
-Copy
-Edit
+
 public class MaxSubarraySum {
     public static int maxSubArray(int[] arr) {
         int maxSoFar = arr[0], maxEndingHere = arr[0];
