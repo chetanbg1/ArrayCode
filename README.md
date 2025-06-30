@@ -277,9 +277,7 @@ public class MaxSubarraySum {
     }
 }
 18. Find Common Elements in Two Arrays
-java
-Copy
-Edit
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -296,9 +294,7 @@ public class CommonElements {
     }
 }
 19. Find the Intersection of Two Arrays (Unique Elements)
-java
-Copy
-Edit
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -317,9 +313,7 @@ public class Intersection {
     }
 }
 20. Find the Union of Two Arrays (Unique Elements)
-java
-Copy
-Edit
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -335,9 +329,7 @@ public class Union {
     }
 }
 21. Find the Largest and Smallest Number in an Array
-java
-Copy
-Edit
+
 public class LargestSmallest {
     public static void main(String[] args) {
         int[] arr = {5, 8, 2, 9, 1};
@@ -351,9 +343,7 @@ public class LargestSmallest {
     }
 }
 22. Find All Pairs with Given Sum in an Array
-java
-Copy
-Edit
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -375,9 +365,7 @@ public class AllPairsSum {
     }
 }
 23. Find Duplicate Elements in an Array
-java
-Copy
-Edit
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -393,9 +381,7 @@ public class FindDuplicates {
     }
 }
 24. Find the Length of the Longest Consecutive Subsequence
-java
-Copy
-Edit
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -423,9 +409,7 @@ public class LongestConsecutive {
     }
 }
 25. Find the Majority Element in an Array (Boyer-Moore Voting Algorithm)
-java
-Copy
-Edit
+
 public class MajorityElement {
     public static int majorityElement(int[] nums) {
         int count = 0, candidate = 0;
